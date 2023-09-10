@@ -1,0 +1,24 @@
+#1. Add 25 to a number
+a=int(input())
+b=25
+sum=lambda a,b:a+b
+result=sum(a,b)
+print(result)
+
+#2 Triple all the numbers in a list
+l = []
+n = int(input("Enter number of elements : "))
+for i in range(0, n):
+    ele = int(input())
+    l.append(ele)
+print(l)
+list(map((lambda x:x*3),l))
+
+#3. square of all elements in a list
+l = []
+n = int(input("Enter number of elements : "))
+for i in range(0, n):
+    ele = int(input())
+    l.append(ele)
+print(l)
+list(map((lambda x:x**2),l))
